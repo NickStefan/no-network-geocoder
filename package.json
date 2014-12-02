@@ -1,0 +1,26 @@
+{
+  "name": "no-network-geocoder",
+  "description": "geocode city names without network requests",
+  "main": "no-network-geocoder.js",
+  "scripts": {
+    "test": "mocha --reporter list"
+  },
+  "version": "0.0.1",
+  "dependencies": {
+    "bluebird": "^2.3.5",
+    "dblite": "^0.6.1",
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "deep-equal-with-difflet": "^0.1.2",
+    "mocha": "~1.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickstefan/no-network-geocoder"
+  },
+  "keywords": [],
+  "author": "Nick Stefan <nickstefan12@gmail.com>",
+  "license": "MIT"
+}
