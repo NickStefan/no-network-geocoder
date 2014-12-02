@@ -1,12 +1,12 @@
 #no-network-geocoder
 
-Geocode city names without any network requests, by using a lightweight prepopulated SQLite database.
+Geocode city names without any network requests, by using a lightweight prepopulated SQLite database. Currently only works for US cities.
 
 ### use
 ```
 var geoCode = require('../no-network-geocoder');
 
-geoCode(locationStr).then(function(dataObj){
+geoCode('San Francisco').then(function(dataObj){
   // dataObj
 };
 ```
@@ -36,4 +36,4 @@ $ npm install no-network-geocoder
 $ npm test
 ```
 
-Special thanks to (https://github.com/mjradwin/geonames-sqlite)[https://github.com/mjradwin/geonames-sqlite] for writing the original script to convert geonames text data to an actual SQLite database.
+Special thanks to https://github.com/mjradwin/geonames-sqlite for writing the original script to convert geonames text data to an actual SQLite database.

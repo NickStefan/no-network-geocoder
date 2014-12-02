@@ -5,7 +5,7 @@
   "scripts": {
     "test": "mocha --reporter list"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "bluebird": "^2.3.5",
     "dblite": "^0.6.1",
