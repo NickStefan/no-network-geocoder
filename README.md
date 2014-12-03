@@ -1,3 +1,5 @@
+[![NPM](https://nodei.co/npm/no-network-geocoder.png)](https://nodei.co/npm/no-network-geocoder/)
+
 #no-network-geocoder
 
 Geocode city names without any network requests, by using a lightweight prepopulated SQLite database. Currently only works for US cities.
